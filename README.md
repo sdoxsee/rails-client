@@ -30,6 +30,20 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 
 Getting Started
 ---------------
+Don't forget to add a ```config/google.yml``` that looks something like this:
+```
+development:
+  app_id: 12345.apps.googleusercontent.com
+  secret: abcdef
+
+test:
+  app_id: 12345
+  secret: abcdef
+
+production:
+  app_id: 23456
+  secret: bcdefg
+```
 
 Documentation and Support
 -------------------------

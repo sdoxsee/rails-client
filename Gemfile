@@ -14,7 +14,7 @@ end
 gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'omniauth'
-gem 'omniauth-google-oauth2'
+# gem 'omniauth-google-oauth2'
 gem 'omniauth-openid-connect'
 gem 'simple_form'
 group :development do

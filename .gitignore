@@ -30,7 +30,6 @@ db/*.sqlite3
 /config/config.yml
 /config/database.yml
 /config/google.yml
-/config/mitre.yml
 /coverage.data
 /coverage/
 /db/*.javadb/

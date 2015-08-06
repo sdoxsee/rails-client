@@ -1,0 +1,11 @@
+development:
+  app_id: 12345.apps.googleusercontent.com
+  secret: abcdef
+
+test:
+  app_id: 12345
+  secret: abcdef
+
+production:
+  app_id: 23456
+  secret: bcdefg

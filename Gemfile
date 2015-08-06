@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.2'
+ruby '2.1.6'
 gem 'rails', '4.2.3'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -13,6 +13,8 @@ group :development, :test do
 end
 gem 'bootstrap-sass'
 gem 'high_voltage'
+# http://stackoverflow.com/a/23023291
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'omniauth'
 # gem 'omniauth-google-oauth2'
 gem 'omniauth-openid-connect'

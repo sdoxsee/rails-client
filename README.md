@@ -3,47 +3,21 @@ Rails Client
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
-
-Rails Composer is open source and supported by subscribers. Please join RailsApps to support development of Rails Composer.
-
-Problems? Issues?
------------
-
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
-
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
-
 Ruby on Rails
 -------------
 
 This application requires:
 
-- Ruby 2.1.6
+- Ruby 2.1.6 (was 2.2.2 but downgraded to work with Windows. See https://github.com/sparklemotion/nokogiri/issues/1256)
 - Rails 4.2.3
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
 Getting Started
 ---------------
-Don't forget to add a ```config/google.yml``` and ```config/mitre.yml``` that each look something like this:
-```
-development:
-  app_id: 12345.apps.googleusercontent.com
-  secret: abcdef
+Change ```config/google.sample.yml``` to ```config/google.yml``` with your own project's API credentials from https://console.developers.google.com
 
-test:
-  app_id: 12345
-  secret: abcdef
-
-production:
-  app_id: 23456
-  secret: bcdefg
-```
+```config/mitre.yml``` is configured to work with https://github.com/sdoxsee/CompanyBSso/tree/master/identity-provider/my-openid-connect as its OpenID Provider. So you'll want to run my-openid-connect-0.0.1-SNAPSHOT.war on tomcat or another java application server. NOTE: doesn't seem to work with spring-boot yet despite: https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server/issues/670#issuecomment-107594918
 
 Documentation and Support
 -------------------------

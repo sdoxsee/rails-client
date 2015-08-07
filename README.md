@@ -23,14 +23,14 @@ Ruby on Rails
 
 This application requires:
 
-- Ruby 2.2.2
+- Ruby 2.1.6
 - Rails 4.2.3
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
 Getting Started
 ---------------
-Don't forget to add a ```config/google.yml``` that looks something like this:
+Don't forget to add a ```config/google.yml``` and ```config/mitre.yml``` that each look something like this:
 ```
 development:
   app_id: 12345.apps.googleusercontent.com

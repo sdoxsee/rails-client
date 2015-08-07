@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root to: 'visitors#index'
   get '/auth/:provider/callback' => 'sessions#create'
   get '/signin' => 'sessions#new', :as => :signin
+  get '/google_sso' => 'sessions#google_sso'
   get '/signout' => 'sessions#destroy', :as => :signout
   get '/auth/failure' => 'sessions#failure'
 end

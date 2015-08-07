@@ -1,5 +1,5 @@
 development:
-  app_id: client
+  app_id: rails-client
   secret: secret
 
 test:

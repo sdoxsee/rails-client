@@ -1,4 +1,4 @@
-Rails Client
+Stephen's Rails Client
 ================
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
